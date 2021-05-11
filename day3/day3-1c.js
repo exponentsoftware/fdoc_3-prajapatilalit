@@ -20,12 +20,6 @@ const student = {
 // console.log(student);
 
 const newStudent = Object.assign({}, student);
-// newStudent.skills.frontEnd = { skill: "bootstrap", level: 8 };
-// console.log(newStudent);
-// console.log(student);
-newStudent.skills.frontEnd = [
-  ...newStudent.skills.frontEnd,
-  { skill: "Bootstrap", level: 8 },
-];
-
+newStudent.skills.dataBase.push({ skill: "SQL", level: 8 });
 console.log(newStudent);
+console.log(student);
