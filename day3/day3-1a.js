@@ -16,13 +16,8 @@ const student = {
     dataScience: ["Python", "R", "D3.js"],
   },
 };
-
-// console.log(student);
-
 const newStudent = Object.assign({}, student);
-// newStudent.skills.frontEnd = { skill: "bootstrap", level: 8 };
-// console.log(newStudent);
-// console.log(student);
+
 newStudent.skills.frontEnd = [
   ...newStudent.skills.frontEnd,
   { skill: "Bootstrap", level: 8 },
