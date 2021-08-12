@@ -17,10 +17,11 @@ const student = {
   },
 };
 const newStudent = Object.assign({}, student);
+newStudent.skills.frontEnd.push({ skill: "Bootstrap", level: 8 });
 
-newStudent.skills.frontEnd = [
-  ...newStudent.skills.frontEnd,
-  { skill: "Bootstrap", level: 8 },
-];
+// newStudent.skills.frontEnd = [
+//   ...newStudent.skills.frontEnd,
+//   { skill: "Bootstrap", level: 8 },
+// ];
 
 console.log(newStudent);

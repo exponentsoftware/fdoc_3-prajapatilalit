@@ -22,4 +22,3 @@ const student = {
 const newStudent = Object.assign({}, student);
 newStudent.skills.backEnd.push({ skill: "Express", level: 9 });
 console.log(newStudent);
-console.log(student);

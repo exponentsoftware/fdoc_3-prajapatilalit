@@ -22,4 +22,3 @@ const student = {
 const newStudent = Object.assign({}, student);
 newStudent.skills.dataBase.push({ skill: "SQL", level: 8 });
 console.log(newStudent);
-console.log(student);

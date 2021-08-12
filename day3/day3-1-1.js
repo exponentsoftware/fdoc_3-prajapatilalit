@@ -7,7 +7,7 @@ const convertArrayToObject = (arr) => {
     ["skills", skills],
     ["scores", scores],
   ]);
-  const obj = Object.fromEntries(arr);
+  const obj = new Array(Object.fromEntries(arr));
 
   console.log(obj);
 };

@@ -22,4 +22,3 @@ const student = {
 const newStudent = Object.assign({}, student);
 newStudent.skills.dataScience.push("SQL");
 console.log(newStudent);
-console.log(student);
